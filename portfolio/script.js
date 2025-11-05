@@ -3,17 +3,17 @@
 const projects = [
   {
     title: "To-Do App",
-    path: "projects/todo-app/index.html",
+    path: "projects/to do list/index.html",
     description: "A simple app to manage daily tasks with add and delete functionality."
   },
   {
     title: "Quiz App",
-    path: "projects/quiz-app/index.html",
+    path: "projects/quiz app/index.html",
     description: "An interactive quiz application built using JavaScript and DOM manipulation."
   },
   {
     title: "Weather App",
-    path: "projects/weather-app/index.html",
+    path: "projects/weather app/index.html",
     description: "Fetches real-time weather data using an API and displays it in a clean UI."
   }
 ];
@@ -46,3 +46,4 @@ backBtn.addEventListener("click", () => {
   projectsSection.style.display = "block";
   frame.src = "";
 });
+
